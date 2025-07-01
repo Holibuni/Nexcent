@@ -3,3 +3,35 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header {
+    display: flex;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+  }
+
+  nav > ul {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+  }
+
+  .menu {
+    display: flex;
+  }
+}

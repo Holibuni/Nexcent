@@ -12,6 +12,10 @@ header {
   justify-content: center;
 }
 
+.menu {
+  display: none;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -264,9 +268,10 @@ footer {
   flex-direction: row;
   height: 328px;
   padding: 64px 144px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   background-color: #263238;
+  overflow-y: hidden;
 }
 
 .companyinfo {
@@ -274,21 +279,72 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
-  padding: 30px 50px;
 }
 
-.companyinfo > p {
+.copyright {
   display: flex;
+  flex-direction: column;
   gap: 8px;
+}
+
+.social_links {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
 }
 
 .footerdetails {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  gap: 30px;
+  gap: 80px;
 }
 
 .blablou {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.surrend {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.surrend > .blanctexte {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  background-color: #3a3a3a;
+  border-radius: 8px;
+  padding: 12px 20px;
+}
+
+form input[type="email"] {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+form button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
 }

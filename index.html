@@ -15,9 +15,10 @@
   <body>
     <header>
       <nav>
-        <div>
+        <div class="logo">
             <img src="assets/logo/Logo.svg" alt="Logo Nexcent" />
         </div>
+        <a class="menu" href=""><img src="assets/icons/burger.svg" alt="menu"></a>
         <ul>
           <li>
             <a href="index.html" alt="Home">Home</a>
@@ -261,7 +262,6 @@
           </div>
         </div>
       </section>
-
       <section class="demo">
         <div class="palourde">
         <h2>Pellentesque suscipit fringilla libero eu.</h2>
@@ -269,51 +269,60 @@
         </div>
       </section>
     </main>
-
     <footer>
         <section class="companyinfo">
             <div>
                 <img src="assets/logo/Nexcent_white.svg" alt="Logo">
             </div>
-            <div>
+            <div class="copyright">
                 <p class="blanctexte">Copyright © 2020 Landify UI Kit.</p>
                 <p class="blanctexte">All rights reserved</p>
             </div>
-            <div>
-               <img src="assets/socialLinks/instagram.svg" alt="instagram"> 
-               <img src="assets/socialLinks/Social Icon.svg" alt="social icon">
-               <img src="assets/socialLinks/Twitter.svg" alt="Twitter">
-               <img src="assets/socialLinks/Youtube.svg" alt="Youtube">
-            </div>
+          <div class="social_links">
+            <a href="https://instagram.com">
+              <img src="assets/socialLinks/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://google.com">
+              <img src="assets/socialLinks/Social Icon.svg" alt="Social">
+            </a>
+            <a href="https://x.com">
+              <img src="assets/socialLinks/Twitter.svg" alt="Twitter">
+            </a>
+            <a href="https://youtube.com">
+              <img src="assets/socialLinks/Youtube.svg" alt="Youtube">
+            </a>
+          </div>
         </section>
-
         <section class="footerdetails">
             <div class="blablou">
                 <h4 class="blanctexte">Company</h4>
-                <a class="blanctexte" href="About us" alt="About us">About us</a>
-                <a class="blanctexte" href="Blog" alt="Blog">Blog</a>
-                <a class="blanctexte" href="Contact us" alt="Contact us">Contact us</a>
-                <a class="blanctexte" href="Pricing" alt="Pricing">Pricing</a>
-                <a class="blanctexte" href="Testimonials" alt="Testimonials">Testimonials</a>
+                <div class="surrend">
+                  <a class="blanctexte" href="About us" alt="About us">About us</a>
+                  <a class="blanctexte" href="Blog" alt="Blog">Blog</a>
+                  <a class="blanctexte" href="Contact us" alt="Contact us">Contact us</a>
+                  <a class="blanctexte" href="Pricing" alt="Pricing">Pricing</a>
+                  <a class="blanctexte" href="Testimonials" alt="Testimonials">Testimonials</a>
+                </div>
             </div>
             <div class="blablou">
                 <h4 class="blanctexte">Support</h4>
-                <a class="blanctexte" href="Help center" alt="Help center">Help center</a>
-                <a class="blanctexte" href="Terms of service" alt="Terms of service">Terms of service</a>
-                <a class="blanctexte" href="Legal" alt="Legal">Legal</a>
-                <a class="blanctexte" href="Pricavy policy" alt="Privacy policy">Privacy policy</a>
-                <a class="blanctexte" href="Status" alt="Status">Status</a>
+                <div class="surrend">
+                  <a class="blanctexte" href="Help center" alt="Help center">Help center</a>
+                  <a class="blanctexte" href="Terms of service" alt="Terms of service">Terms of service</a>
+                  <a class="blanctexte" href="Legal" alt="Legal">Legal</a>
+                  <a class="blanctexte" href="Pricavy policy" alt="Privacy policy">Privacy policy</a>
+                  <a class="blanctexte" href="Status" alt="Status">Status</a>
+                </div>
             </div>
             <div class="blablou">
                 <h4 class="blanctexte">Stay up to date</h4>
                 <form>
-                    <label class="blanctexte" for="email" alt="email">Adresse email</label>
-                    <input type="email" id="email" name="email"> 
-                    <button type="submit"> <img src="assets/icons/send.png" alt="send"> </button>
+                    <label class="blanctexte" for="email" hidden></label>
+                  <input type="email" id="email" name="email" placeholder="Your email address" />
+                  <button type="submit"><img src="assets/icons/send.png" alt="Send" /></button>
                 </form>
             </div>
         </section>
-
     </footer>
   </body>
 </html>
